@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Grandma’s “Kinda Jollof” (messy + schema)</title>
+
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Grandma’s Kinda Jollof",
+    "description": "A deliberately messy-looking recipe page that contains proper Recipe schema for testing import behavior.",
+    "recipeYield": "3 servings",
+    "prepTime": "PT12M",
+    "cookTime": "PT35M",
+    "totalTime": "PT47M",
+    "recipeIngredient": [
+      "1 large onion, chopped",
+      "2 tbsp tomato paste",
+      "1.5 cups long grain rice",
+      "1/4 cup palm oil (or vegetable oil)",
+      "2 cloves garlic, minced",
+      "1 bouillon cube",
+      "Salt, to taste",
+      "Optional: thyme, curry powder, ginger",
+      "Water or stock, as needed"
+    ],
+    "recipeInstructions": [
+      { "@type": "HowToStep", "text": "Heat oil. Add onion and cook until fragrant. Add garlic." },
+      { "@type": "HowToStep", "text": "Add tomato paste and fry briefly. Add optional spices." },
+      { "@type": "HowToStep", "text": "Add rice and stir to coat. Add water/stock until barely covered." },
+      { "@type": "HowToStep", "text": "Cover and simmer low. Check periodically; add splashes of water if drying. Rest 5 minutes and fluff." }
+    ]
+  }
+  </script>
+
+    <style>
+        body {
+            font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+            margin: 24px;
+            line-height: 1.5;
+            max-width: 760px;
+        }
+
+        .note {
+            background: #fff7ed;
+            border: 1px solid #fed7aa;
+            padding: 12px;
+            border-radius: 12px;
+        }
+
+        .weird {
+            margin-top: 18px;
+            padding: 14px;
+            border: 1px dashed #cbd5e1;
+            border-radius: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Grandma’s “Kinda Jollof” 🍚</h1>
+    <p class="note">This page looks messy, but it secretly contains valid Recipe schema.</p>
+
+    <div class="weird">
+        <h2>things you need</h2>
+        <p>onion, tomato paste, rice, oil, garlic, maggi, salt… yk</p>
+    </div>
+
+    <div class="weird">
+        <h2>how to make it</h2>
+        <p>do the onion thing. add tomato paste. stir rice. add water. simmer. rest. fluff.</p>
+    </div>
+</body>
+
+</html>
